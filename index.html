@@ -17,11 +17,19 @@
             color:blueviolet;
             padding: 5rem;
         }
+
     </style>
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
+    <h1 id="hehe">HELLO WORLD</h1>
 
     <h3>Ang ganda ko po.</h3>
+
+<script>
+    document.getElementById('hehe').addEventListener('click', function(){
+        document.getElementById('hehe').style.color = 'green'
+        document.getElementById('hehe').innerHTML = "panget!!!"
+    })
+</script>
 </body>
 </html>
